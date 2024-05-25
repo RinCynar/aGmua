@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 
 <blockquote>
@@ -16,13 +16,14 @@ I'm Rin' Cynar, you can ca11 me Rinri too.
 "I can't quite explain my skills, but I'm good at messing around with things, just playing around with code, making some not-so-perfect graphics, haha.  In the end, I'm kind of a dabbler in everything but don't excel at anything.  By the way, if you want to understand me, you could browse this website, maybe you'll get a sense of my personality (messing around, having fun...)"
     
 ## This Website?
-This is my personal blog!
-I've been working on setting up a website since around 2021. I started with "WordPress," went through a few different options back and forth, and finally settled here: GithHub + https://github.com/cotes2020/jekyll-theme-chirpy"
+This is my personal blog!Click [here](/assets/file/rcvA-1-1.apk) to install the android app of this site
+I've been working on setting up a website since around 2021. I started with "WordPress," went through a few different options back and forth, and finally settled here: GithHub + 
+[this theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 Luckily, I'm easygoing and didn't put much up, so I avoided any problems (blodly asserting myself Haha).
 Of course, this isn't a technical website (seriously, what technical skills do I have?), it's more of a write-whatever-you-want, whenever-you-feel-like-it kind of place, so there might be all sorts of content here~>This theme~
     
 ## About friendly links
-Anyone who wants to add a friend link is welcome! Please publish issues on https://github.com/RinCynar/rincynar.github.io
+Anyone who wants to add a friend link is welcome! Please publish issues on [here](https://github.com/RinCynar/rincynar.github.io)
   <blockquote>
   the format:
   {
