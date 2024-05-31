@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "rcva.san.tc"
+url: "http://rcva.san.tc"
 
 github:
   username: RinCynar # change to your github username
@@ -38,8 +38,8 @@ social:
   email: 0rhendx@Gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/RinCynar # change to your twitter homepage
-    - https://github.com/RinCynar # change to your github homepage
+    - http://twitter.com/RinCynar # change to your twitter homepage
+    - http://github.com/RinCynar # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -148,7 +148,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "http://rcva.san.tc"
 
 # ------------ The following options are not recommended to be modified ------------------
 
