@@ -47,17 +47,16 @@ Sign in to GitHub to [fork Chirpy](https://github.com/cotes2020/jekyll-theme-chi
 
 Next, clone the repository to your local machine, make sure it has nodejs installed, then go to the root directory of the repo and run the following command:
 
-console
-$ bash tools/init.sh
+ $ bash tools/init.sh
 
 
 The above command will:
 
-1. Check out the code to the latest tag (to ensure the stability of your site: as the code for the default branch is under development).
-2. Remove non-essential sample files and take care of GitHub-related files.
-3. Build CSS/JS assets files and then make them tracked by Git.
-4. Automatically create a new commit to save the changes above.
-
+ 1. Check out the code to the latest tag (to ensure the stability of your site: as the code for the default branch is under development).
+ 2. Remove non-essential sample files and take care of GitHub-related files.
+ 3. Build CSS/JS assets files and then make them tracked by Git.
+ 4. Automatically create a new commit to save the changes above.
+   
 #### Setting up
 Update the variables of _config.yml {: .filepath} as needed. Some of them are typical options: url,avatar,timezone,lang
 
