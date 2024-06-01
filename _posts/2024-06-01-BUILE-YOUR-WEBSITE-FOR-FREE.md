@@ -19,6 +19,7 @@ Haven't? Sign up! [This is a guide.](https://rcva.san.tc/posts/HOW-TO-REGISTER-A
 ### First,find your favorite theme template on GitHub
 Generally speaking, just [search](https://github.com/search?q=jekyll+themes&type=repositories) for jekyll themes and select it.
 <br>
+
 Here are some recommended templates, but the following operations will be explained using the template [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) used on this site as an example.
 <br>
 <a href="https://github.com/Huxpro/huxpro.github.io">
@@ -46,6 +47,7 @@ Generally speaking, template providers will provide relevant tools and instructi
 #### There are two ways to create a new repository for this theme:
 Using the Chirpy Starter — Easy to upgrade, isolates irrelevant project files so you can focus on writing.
 <br>
+<br>
 GitHub Fork— Convenient for custom development, but difficult to upgrade. Unless you are familiar with Jekyll and are determined to tweak or contribute to this project, this approach is not recommended.
 
 ##### Using the Chirpy Starter
@@ -54,7 +56,8 @@ Sign in to GitHub and browse to [Chirpy Starter](ttps://github.com/cotes2020/chi
 ##### GitHub Fork
 Sign in to GitHub to [Fork Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/fork), and then rename it to `USERNAME.github.io` (`USERNAME` means your username).
 <br>
-Next, clone the repository to your local machine, make sure it has [Node.js][nodejs] installed, then go to the root directory of the repo and run the following command:
+
+Next, clone the repository to your local machine, make sure it has [Node.js](https://nodejs.org/) installed, then go to the root directory of the repo and run the following command:
 
 ```console
 $ bash tools/init.sh
@@ -62,7 +65,7 @@ $ bash tools/init.sh
 
 The above command will:
 
-1. Check out the code to the [latest tag][latest-tag] (to ensure the stability of your site: as the code for the default branch is under development).
+1. Check out the code to the [latest tag](https://github.com/cotes2020/jekyll-theme-chirpy/tags) (to ensure the stability of your site: as the code for the default branch is under development).
 2. Remove non-essential sample files and take care of GitHub-related files.
 3. Build CSS/JS assets files and then make them tracked by Git.
 4. Automatically create a new commit to save the changes above.
@@ -87,6 +90,7 @@ Starting with version `6.2.0`, if you want to overwrite the SASS variables defin
 ##### Customing Static Assets
 Static assets configuration was introduced in version `5.1.0`. The CDN of the static assets is defined by file `_data/origin/cors.yml`{: .filepath }, and you can replace some of them according to the network conditions in the region where your website is published.
 <br>
+
 Also, if you'd like to self-host the static assets, please refer to the [_chirpy-static-assets_](https://github.com/cotes2020/chirpy-static-assets#readme).
 
 ##### Running Local Server
