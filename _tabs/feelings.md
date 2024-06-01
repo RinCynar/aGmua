@@ -8,6 +8,9 @@ order: 3
         WHAT RIGHT DO U HAVE 2 MAKE A CHILD WHO GROW UP IN MALICE SPREAD LOVE & HOPE?
     </blockquote>
 <blockquote>
+    Human beings are strange creatures. They crave love, but they don't believe in it.
+    </blockquote>
+<blockquote>
         Forgetting is not different from dying.
     </blockquote>
 <blockquote>
