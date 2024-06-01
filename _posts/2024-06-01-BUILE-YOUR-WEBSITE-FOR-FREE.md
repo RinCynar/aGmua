@@ -2,7 +2,7 @@
 title:      HOW TO BUILD YOUR WEBSITE FOR FREE
 date:       2024-06-01
 author:     RinCynar
-categories: [IT,Website]
+categories: [IT,Internet,Website]
 tags: [IT,free,Internet,build,website,domainName]
 ---
 ## Preface
