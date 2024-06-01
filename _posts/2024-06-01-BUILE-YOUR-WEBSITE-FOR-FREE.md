@@ -22,13 +22,13 @@ Generally speaking, just [search](https://github.com/search?q=jekyll+themes&type
 Here are some recommended templates, but the following operations will be explained using the template [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) used on this site as an example.
 <br>
 <a href="https://github.com/Huxpro/huxpro.github.io">
-    <img border="0" src="https://camo.githubusercontent.com/563ba41df66b8e5304f5a75b4e15779e53a78e4379d913f994294828d2bc2838/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6465736b746f702e6a7067" alt="themes by Hux" />
+    <img border="0" src="/assets/img/image/image@20240601bywff10.png" alt="themes by Hux" />
 </a><br>
 <a href="https://github.com/andrewbanchich/forty-jekyll-theme">
-    <img border="0" src="https://github.com/andrewbanchich/forty-jekyll-theme/raw/master/assets/images/forty.jpg" alt="Forty - Jekyll Theme" />
+    <img border="0" src="/assets/img/image/image@20240601bywff11.png" alt="Forty - Jekyll Theme" />
 </a><br>
 <a href="https://github.com/Simpleyyt/jekyll-theme-next">
-    <img border="0" src="https://camo.githubusercontent.com/924266e46be23088011832098bdcb750ba8894a7fca7f79aa3fa26946942ed75/687474703a2f2f696973736e616e2e636f6d2f6e657875732f6e6578742f6e6578742d736368656d65732e6a7067" alt="Forty - Jekyll Theme" />
+    <img border="0" src="/assets/img/image/image@20240601bywff12.png" alt="Forty - Jekyll Theme" />
 </a><br>
 Of course, there are many more high-quality templates. Please go to GitHub to search.
 <br>
@@ -164,7 +164,7 @@ Unless you specified the output path, the generated site files will be placed in
 ## Use custom domain name
 ### set you domain name
 #### [Get a domain name](https://rcva.san.tc/posts/GET-A-FREE-DOMAIN-NAME),and set DNS
-There are many DNS resolution service providers that provide free services, such as [DNS.HE.NET](http://ipv6.he.net/certification/register.php), [Cloudflare](https://cloudflare.com), [Domaincow.com](https://domaincow.com),etc. You can choose any one of them. The operations are similar. The following takes DNSExit as an example.
+There are many DNS resolution service providers that provide free services, such as [DNS.HE.NET](https://ipv6.he.net/certification/register.php), [Cloudflare](https://cloudflare.com), [Domaincow.com](https://domaincow.com),etc. You can choose any one of them. The operations are similar. The following takes DNSExit as an example.
 
 ##### Enter the URL in the browser: https://dnsexit.com/index.jsp
 <img src="/assets/img/image/image@20240601bywff03.png" alt="Examp1e" />
