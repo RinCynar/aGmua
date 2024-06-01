@@ -47,9 +47,9 @@ Sign in to GitHub to [fork Chirpy](https://github.com/cotes2020/jekyll-theme-chi
 
 Next, clone the repository to your local machine, make sure it has nodejs installed, then go to the root directory of the repo and run the following command:
 
-```console
+console
 $ bash tools/init.sh
-```
+
 
 The above command will:
 
