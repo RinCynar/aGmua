@@ -12,12 +12,12 @@ Sometimes you want to use adb to delete some useless pre-installed applications 
 <br>
 The actual removal command is 
 
-  $ adb uninstall --user 0 <name 0f package>
+  $ adb uninstall --user 0 <name of package>
 
 However, what should I do if I find that I deleted it by mistake after deleting it? Of course, you can choose to reset the phone and restore everything to factory settings easily, but this is not what we want.<br>
 In fact, using adb can also easily restore accidentally deleted applications. You only need to execute the command
 
-  $ adb shell cmd package install-existing <name 0f package>
+  $ adb shell cmd package install-existing <name of package>
 
 like this: <br>
 <br>
