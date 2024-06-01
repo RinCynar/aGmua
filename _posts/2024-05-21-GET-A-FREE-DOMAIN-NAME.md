@@ -1,0 +1,31 @@
+---
+title:      HOW TO REGISTER A GITHUB ACCOUNT
+date:       2024-05-21
+author:     RinCynar
+categories: [IT,Internet]
+tags: [IT,Internet,website,build,free]
+---
+## Preface
+Recently I found that site.ac is offering free domain names for registration.The registration threshold is very low, no personal information is required, only an email address is required
+
+## Register a account
+### Enter the URL in the browser: https://site.ac
+<img src="/assets/img/image/image@20240521gafdn00.png" alt="Examp1e" />
+
+### Click the New Account button in the upper right corner
+<img src="/assets/img/image/image@20240521gafdn01.png" alt="Examp1e" />
+
+### Fill in relevant registration information
+<img src="/assets/img/image/image@20240521gafdn02.png" alt="Examp1e" />
+
+### Click the New Domain Name button in the upper left corner
+<img src="/assets/img/image/image@20240521gafdn03.png" alt="Examp1e" />
+
+### Fill in you wanna own domain name and choose the Defining DNS-NS Address
+<img src="/assets/img/image/image@20240521gafdn04.png" alt="Examp1e" />
+
+### Set DNS-NS
+Fill in the address provided by your DNS resolution service provider like this (here DNSExit is used as an example)
+<img src="/assets/img/image/image@20240521gafdn05.png" alt="Examp1e" />
+
+## Save and update, your domain name is really to use.
