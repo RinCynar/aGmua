@@ -1,5 +1,5 @@
 ---
-title:      HOW TO REGISTER A GITHUB ACCOUNT
+title:      GET A FREE DOMAIN NAME
 date:       2024-05-21
 author:     RinCynar
 categories: [IT,Internet]
