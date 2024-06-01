@@ -40,6 +40,7 @@ Once you have chosen your template, click the Fork button to fork it to your acc
 
 ### Make modifications to the repository you just created
 Generally speaking, template providers will provide relevant tools and instructions. The following takes the Chirpy template as an example.
+The following is from the official Chirpy documentation
 
 ## Prerequisites
 
