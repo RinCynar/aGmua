@@ -9,19 +9,20 @@ tags: [IT,free,Internet,build,website,domainName]
 These days I have been researching how to build my own website for free. Now I record all of this here, hoping it can help you who want to build a website but don’t want to spend money.
 
 ## Things You Need to Have
+
 ### A computer with Internet access
 Haven't? Buy one!(bushi).Try do that in phone is really cool right?
-### A Github Accounts
-Haven't? Sign up! [This is a guide.](https://rcva.san.tc/posts/HOW-TO-REGISTER-A-GITHUB-ACCOUNT) 
-### A smart person --You
 
+### A Github Accounts
+Haven't? Sign up! 
+[This is a guide.](https://rcva.san.tc/posts/HOW-TO-REGISTER-A-GITHUB-ACCOUNT) 
+
+### A smart person --You
 ## Start!
 ### First,find your favorite theme template on GitHub
 Generally speaking, just [search](https://github.com/search?q=jekyll+themes&type=repositories) for jekyll themes and select it.
-<br>
-
 Here are some recommended templates, but the following operations will be explained using the template [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) used on this site as an example.
-<br>
+
 <a href="https://github.com/Huxpro/huxpro.github.io">
     <img border="0" src="/assets/img/image/image@20240601bywff10.png" alt="themes by Hux" />
 </a><br>
@@ -30,7 +31,8 @@ Here are some recommended templates, but the following operations will be explai
 </a><br>
 <a href="https://github.com/Simpleyyt/jekyll-theme-next">
     <img border="0" src="/assets/img/image/image@20240601bywff12.png" alt="Forty - Jekyll Theme" />
-</a><br>
+</a>
+
 Of course, there are many more high-quality templates. Please go to GitHub to search.
 <br>
 Once you have chosen your template, click the Fork button to fork it to your account. It is recommended to name the new repository to: 
@@ -38,8 +40,7 @@ Once you have chosen your template, click the Fork button to fork it to your acc
 yourname.github.io
 <br>
 Like this:
-<br>
-<img src="/assets/img/image/image@20240601bywff00.png" alt="Examp1e" />
+<br><img src="/assets/img/image/image@20240601bywff00.png" alt="Examp1e" />
 
 ### Make modifications to the repository you just created
 Generally speaking, template providers will provide relevant tools and instructions. The following takes the Chirpy template as an example.
@@ -55,7 +56,6 @@ Sign in to GitHub and browse to [Chirpy Starter](ttps://github.com/cotes2020/chi
 
 ##### GitHub Fork
 Sign in to GitHub to [Fork Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/fork), and then rename it to `USERNAME.github.io` (`USERNAME` means your username).
-<br>
 
 Next, clone the repository to your local machine, make sure it has [Node.js](https://nodejs.org/) installed, then go to the root directory of the repo and run the following command:
 
@@ -76,7 +76,6 @@ The above command will:
 #### Usage
 ##### Configuration
 Update the variables of `_config.yml`{: .filepath} as needed. Some of them are typical options:
-<br>
 - `url`
 - `avatar`
 - `timezone`
@@ -87,12 +86,11 @@ Social contact options are displayed at the bottom of the sidebar. You can turn 
 
 ##### Customizing Stylesheet
 If you need to customize the stylesheet, copy the theme's `assets/css/jekyll-theme-chirpy.scss`{: .filepath} to the same path on your Jekyll site, and then add the custom style at the end of it.
-<br>
+
 Starting with version `6.2.0`, if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`{: .filepath}, copy the main sass file `_sass/main.scss`{: .filepath} into the `_sass`{: .filepath} directory in your site's source, then create a new file `_sass/variables-hook.scss`{: .filepath} and assign new value.
 
 ##### Customing Static Assets
 Static assets configuration was introduced in version `5.1.0`. The CDN of the static assets is defined by file `_data/origin/cors.yml`{: .filepath }, and you can replace some of them according to the network conditions in the region where your website is published.
-<br>
 
 Also, if you'd like to self-host the static assets, please refer to the [_chirpy-static-assets_](https://github.com/cotes2020/chirpy-static-assets#readme).
 
@@ -107,12 +105,12 @@ After a few seconds, the local service will be published at _<http://127.0.0.1:4
 
 ### Deployment
 Before the deployment begins, check out the file `_config.yml`{: .filepath} and make sure the `url` is configured correctly. Furthermore, if you prefer the [project site](https://help.github.com/en/github/working-with-github-pages/about-github-pages#types-of-github-pages-sites) and don't use a custom domain, or you want to visit your website with a base URL on a web server other than **GitHub Pages**, remember to change the `baseurl` to your project name that starts with a slash, e.g, `/project-name`.
-<br>
+
 Now you can choose _ONE_ of the following methods to deploy your Jekyll site.
 
 #### Deploy by Using GitHub Actions
 There are a few things to get ready for.
-<br>
+
 - If you're on the GitHub Free plan, keep your site repository public.
 - If you have committed `Gemfile.lock`{: .filepath} to the repository, and your local machine is not running Linux, go to the root of your site and update the platform list of the lock-file:
 
@@ -128,12 +126,12 @@ Next, configure the _Pages_ service.
 ![Build source](/assets/img/image/image@20240601bywff14.png){: .dark .normal w='375' h='140' }
 
 1. Push any commits to GitHub to trigger the _Actions_ workflow. In the _Actions_ tab of your repository, you should see the workflow _Build and Deploy_ running. Once the build is complete and successful, the site will be deployed automatically.
-<br>
+
 At this point, you can go to the URL indicated by GitHub to access your site.
 
 #### Manually Build and Deploy
 On self-hosted servers, you cannot enjoy the convenience of **GitHub Actions**. Therefore, you should build the site on your local machine and then upload the site files to the server.
-<br>
+
 Go to the root of the source project, and build your site as follows:
 
 ```console
