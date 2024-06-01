@@ -57,9 +57,6 @@ Next, clone the repository to your local machine, make sure it has [Node.js](htt
   $ bash tools/init.sh
   ```
 
-> If you don't want to deploy your site on GitHub Pages, append option `--no-gh` at the end of the above command.
-{: .prompt-info }
-
 The above command will:
 
 1. Check out the code to the [latest tag](https://github.com/cotes2020/jekyll-theme-chirpy/tags) (to ensure the stability of your site: as the code for the default branch is under development).
