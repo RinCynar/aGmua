@@ -25,30 +25,24 @@ Here are some recommended templates, but the following operations will be explai
 
 <a href="https://github.com/Huxpro/huxpro.github.io">
     <img border="0" src="/assets/img/image/image@20240601bywff10.png" alt="themes by Hux" />
-</a><br>
+</a>
 <a href="https://github.com/andrewbanchich/forty-jekyll-theme">
     <img border="0" src="/assets/img/image/image@20240601bywff11.png" alt="Forty - Jekyll Theme" />
-</a><br>
+</a>
 <a href="https://github.com/Simpleyyt/jekyll-theme-next">
     <img border="0" src="/assets/img/image/image@20240601bywff12.png" alt="Forty - Jekyll Theme" />
 </a>
 
 Of course, there are many more high-quality templates. Please go to GitHub to search.
-<br>
-Once you have chosen your template, click the Fork button to fork it to your account. It is recommended to name the new repository to: 
-<br>
-yourname.github.io
-<br>
-Like this:
-<br><img src="/assets/img/image/image@20240601bywff00.png" alt="Examp1e" />
+
+Once you have chosen your template, click the Fork button to fork it to your account. It is recommended to name the new repository to yourname.github.io.Like this:
+<img src="/assets/img/image/image@20240601bywff00.png" alt="Examp1e" />
 
 ### Make modifications to the repository you just created
 Generally speaking, template providers will provide relevant tools and instructions. The following takes the Chirpy template as an example.
 
 #### There are two ways to create a new repository for this theme:
 Using the Chirpy Starter — Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-<br>
-<br>
 GitHub Fork— Convenient for custom development, but difficult to upgrade. Unless you are familiar with Jekyll and are determined to tweak or contribute to this project, this approach is not recommended.
 
 ##### Using the Chirpy Starter
@@ -76,6 +70,7 @@ The above command will:
 #### Usage
 ##### Configuration
 Update the variables of `_config.yml`{: .filepath} as needed. Some of them are typical options:
+
 - `url`
 - `avatar`
 - `timezone`
@@ -167,11 +162,9 @@ By the way, you can add a record in the CNAME: www.example.cc = example.cc
 ### Set your repository
 On GitHub, set up your personal web page as GitHub Pages. In your repository, go to the "Settings" page, and in the "GitHub Pages" section, select "Enforce HTTPS" and "Custom domain". Then, paste your custom domain name into the "Custom domain" field. Click the "Save" button to save your settings.Like this:
 <img src="/assets/img/image/image@20240601bywff01.png" alt="Examp1e" />
-<br>
 Create a new file called "CHAME" in your repository and write your domain name in it, like this:
 <img src="/assets/img/image/image@20240601bywff02.png" alt="Examp1e" />
 
 ## Done
 Wait for the changes to be applied, then enjoy your site.
-<br>
 By the way, you can use https://dnschecker.org/ to check if your DNS settings are effective.
