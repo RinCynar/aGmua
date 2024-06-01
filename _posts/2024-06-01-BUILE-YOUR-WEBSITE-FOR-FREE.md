@@ -51,11 +51,10 @@ Next, clone the repository to your local machine, make sure it has nodejs instal
 
 
 The above command will:
-
- 1. Check out the code to the latest tag (to ensure the stability of your site: as the code for the default branch is under development).
- 2. Remove non-essential sample files and take care of GitHub-related files.
- 3. Build CSS/JS assets files and then make them tracked by Git.
- 4. Automatically create a new commit to save the changes above.
+   Check out the code to the latest tag (to ensure the stability of your site: as the code for the default branch is under development).
+   Remove non-essential sample files and take care of GitHub-related files.
+   Build CSS/JS assets files and then make them tracked by Git.
+   Automatically create a new commit to save the changes above.
    
 #### Setting up
 Update the variables of _config.yml {: .filepath} as needed. Some of them are typical options: url,avatar,timezone,lang
