@@ -185,7 +185,7 @@ Sign up and login
 ###### Click on the upper right corner to save DNS settings
 By the way, you can add a record in the CNAME: www.example.cc = example.cc
 
-### set your repository
+### Set your repository
 On GitHub, set up your personal web page as GitHub Pages. In your repository, go to the "Settings" page, and in the "GitHub Pages" section, select "Enforce HTTPS" and "Custom domain". Then, paste your custom domain name into the "Custom domain" field. Click the "Save" button to save your settings.Like this:
 <img src="/assets/img/image/image@20240601bywff01.png" alt="Examp1e" />
 <br>
