@@ -8,6 +8,9 @@ order: 3
         WHAT RIGHT DO U HAVE 2 MAKE A CHILD WHO GROW UP IN MALICE SPREAD LOVE & HOPE?
     </blockquote>
 <blockquote>
+        "Embrace anew, ere chime shatters the ephemeral dreamscape."
+    </blockquote>
+<blockquote>
         "In my opinion, the ideal system of society should be [seven days off]. The day after Sunday is the second, third, and even forever another Sunday - this is the face of the new world, an eternal day of peace with nothing to do."
     </blockquote>
 <blockquote>
