@@ -267,7 +267,7 @@ def interactive_mode():
     
     print("---For entertainment only, it is recommended to use the official version---")
     print_message(
-        f"聯覺信標{RCS_VER}, \nhttp://rcva.san.tc, Rin' Cynar\n瓦爾特-楊無論何時需要幫助，「帕姆」都會及時趕到，不過請不要故意尋它開心，上一個這麼做的人已經......"
+        f"聯覺信標{RCS_VER}, \nhttp://rcva.san.tc, Rin' Cynar\n瓦爾特-楊 無論何時需要幫助，「帕姆」都會及時趕到，不過請不要故意尋它開心，上一個這麼做的人已經......"
     )
 
     username = get_input("三月七 你好，歡迎入職星穹列車，我是三月七，星穹列車的成員，也是你的同事，現在，請先拍攝「入職照」.（用戶名）")
