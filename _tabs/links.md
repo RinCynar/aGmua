@@ -25,8 +25,3 @@ A modern and functional Android app installer. (You know some birds are not mean
 [Download Latest Directly(Unstable)](/assets/file/InstallerX1.7(31)Unstable.apk)
 [Download Latest Directly(Preview](/assets/file/InstallerX_1.7(31)preview.apk)
 [Join the offical group(Telegram)](https://t.me/InstallerX)
-
-## Reading
-### 《发呆改变世界》 --Warma沃玛
-[Download Directly](/assets/file/《发呆改变世界》沃玛（一次小练习）.pdf)
-[Watch Original Video](https://www.bilibili.com/video/BV1oM4y1y7Q4/)
