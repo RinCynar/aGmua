@@ -1,27 +1,37 @@
 ---
-title:      HOW TO BUILD YOUR WEBSITE FOR FREE
-date:       2024-06-01
-author:     RinCynar
-categories: [IT,Internet,Website]
-tags: [IT,free,Internet,build,website,domainName]
+title: HOW TO BUILD YOUR WEBSITE FOR FREE
+date: 2024-06-01
+author: RinCynar
+categories: [ IT,Internet,Website ]
+tags: [ IT,free,Internet,build,website,domainName ]
 ---
+
 ## Preface
-These days I have been researching how to build my own website for free. Now I record all of this here, hoping it can help you who want to build a website but don’t want to spend money.
+
+These days I have been researching how to build my own website for free. Now I record all of this here, hoping it can
+help you who want to build a website but don’t want to spend money.
 
 ## Things You Need to Have
 
 ### A computer with Internet access
+
 Haven't? Buy one!(bushi).Try do that in phone is really cool right?
 
 ### A Github Accounts
-Haven't? Sign up! 
-[This is a guide.](https://rcva.san.tc/posts/HOW-TO-REGISTER-A-GITHUB-ACCOUNT) 
+
+Haven't? Sign up!
+[This is a guide.](https://rcva.san.tc/posts/HOW-TO-REGISTER-A-GITHUB-ACCOUNT)
 
 ### A smart person --You
+
 ## Start!
+
 ### First,find your favorite theme template on GitHub
-Generally speaking, just [search](https://github.com/search?q=jekyll+themes&type=repositories) for jekyll themes and select it.
-Here are some recommended templates, but the following operations will be explained using the template [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) used on this site as an example.
+
+Generally speaking, just [search](https://github.com/search?q=jekyll+themes&type=repositories) for jekyll themes and
+select it.
+Here are some recommended templates, but the following operations will be explained using the
+template [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) used on this site as an example.
 
 <a href="https://github.com/Huxpro/huxpro.github.io">
     <img border="0" src="/assets/img/image/image@20240601bywff10.png" alt="themes by Hux" />
@@ -35,74 +45,99 @@ Here are some recommended templates, but the following operations will be explai
 
 Of course, there are many more high-quality templates. Please go to GitHub to search.
 
-Once you have chosen your template, click the Fork button to fork it to your account. It is recommended to name the new repository to yourname.github.io.Like this:
+Once you have chosen your template, click the Fork button to fork it to your account. It is recommended to name the new
+repository to yourname.github.io.Like this:
 <img src="/assets/img/image/image@20240601bywff00.png" alt="Examp1e" />
 
 ### Make modifications to the repository you just created
-Generally speaking, template providers will provide relevant tools and instructions. The following takes the Chirpy template as an example.
+
+Generally speaking, template providers will provide relevant tools and instructions. The following takes the Chirpy
+template as an example.
 The following is from the official Chirpy documentation
 
 #### Create a your website
-Sign in to GitHub to [fork Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/fork), and then rename it to `USERNAME.github.io` (`USERNAME` means your username).
 
-Next, clone the repository to your local machine, make sure it has nodejs installed, then go to the root directory of the repo and run the following command:
+Sign in to GitHub to [fork Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/fork), and then rename it to
+`USERNAME.github.io` (`USERNAME` means your username).
 
- $ bash tools/init.sh
+Next, clone the repository to your local machine, make sure it has nodejs installed, then go to the root directory of
+the repo and run the following command:
 
+$ bash tools/init.sh
 
 The above command will:
-   Check out the code to the latest tag (to ensure the stability of your site: as the code for the default branch is under development).
-   Remove non-essential sample files and take care of GitHub-related files.
-   Build CSS/JS assets files and then make them tracked by Git.
-   Automatically create a new commit to save the changes above.
-   
+Check out the code to the latest tag (to ensure the stability of your site: as the code for the default branch is under
+development).
+Remove non-essential sample files and take care of GitHub-related files.
+Build CSS/JS assets files and then make them tracked by Git.
+Automatically create a new commit to save the changes above.
+
 #### Setting up
+
 Update the variables of _config.yml {: .filepath} as needed. Some of them are typical options: url,avatar,timezone,lang
 
 ##### Social Contact Options
 
-Social contact options are displayed at the bottom of the sidebar. You can turn on/off the specified contacts in file `_data/contact.yml`{: .filepath }.
+Social contact options are displayed at the bottom of the sidebar. You can turn on/off the specified contacts in file
+`_data/contact.yml`{: .filepath }.
 
 ##### Customizing Stylesheet
 
-If you need to customize the stylesheet, copy the theme's `assets/css/jekyll-theme-chirpy.scss`{: .filepath} to the same path on your Jekyll site, and then add the custom style at the end of it.
+If you need to customize the stylesheet, copy the theme's `assets/css/jekyll-theme-chirpy.scss`{: .filepath} to the same
+path on your Jekyll site, and then add the custom style at the end of it.
 
-Starting with version `6.2.0`, if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`{: .filepath}, copy the main sass file `_sass/main.scss`{: .filepath} into the `_sass`{: .filepath} directory in your site's source, then create a new file `_sass/variables-hook.scss`{: .filepath} and assign new value.
+Starting with version `6.2.0`, if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`{:
+.filepath}, copy the main sass file `_sass/main.scss`{: .filepath} into the `_sass`{: .filepath} directory in your
+site's source, then create a new file `_sass/variables-hook.scss`{: .filepath} and assign new value.
 
 #### Manually Build and Deploy
 
-On self-hosted servers, you cannot enjoy the convenience of GitHub Actions. Therefore, you should build the site on your local machine and then upload the site files to the server.
+On self-hosted servers, you cannot enjoy the convenience of GitHub Actions. Therefore, you should build the site on your
+local machine and then upload the site files to the server.
 
 ## Use custom domain name
+
 ### set you domain name
+
 #### [Get a domain name](https://rcva.san.tc/posts/GET-A-FREE-DOMAIN-NAME),and set DNS
-There are many DNS resolution service providers that provide free services, such as [DNS.HE.NET](https://ipv6.he.net/certification/register.php), [Cloudflare](https://cloudflare.com), [Domaincow.com](https://domaincow.com),etc. You can choose any one of them. The operations are similar. The following takes DNSExit as an example.
+
+There are many DNS resolution service providers that provide free services, such
+as [DNS.HE.NET](https://ipv6.he.net/certification/register.php), [Cloudflare](https://cloudflare.com), [Domaincow.com](https://domaincow.com)
+,etc. You can choose any one of them. The operations are similar. The following takes DNSExit as an example.
 
 ##### Enter the URL in the browser: https://dnsexit.com/index.jsp
+
 <img src="/assets/img/image/image@20240601bywff03.png" alt="Examp1e" />
 Sign up and login
 <img src="/assets/img/image/image@20240601bywff04.png" alt="Examp1e" />
 
 ##### Adding your domain name and set
+
 <img src="/assets/img/image/image@20240601bywff05.png" alt="Examp1e" />
 <img src="/assets/img/image/image@20240601bywff06.png" alt="Examp1e" />
 <img src="/assets/img/image/image@20240601bywff07.png" alt="Examp1e" />
 <img src="/assets/img/image/image@20240601bywff08.png" alt="Examp1e" />
 
 ###### Enter the IP address of the Github server
+
 <img src="/assets/img/image/image@20240601bywff09.png" alt="Examp1e" />
 
 ###### Click Next until the end
 
 ###### Click on the upper right corner to save DNS settings
+
 By the way, you can add a record in the CNAME: www.example.cc = example.cc
 
 ### Set your repository
-On GitHub, set up your personal web page as GitHub Pages. In your repository, go to the "Settings" page, and in the "GitHub Pages" section, select "Enforce HTTPS" and "Custom domain". Then, paste your custom domain name into the "Custom domain" field. Click the "Save" button to save your settings.Like this:
+
+On GitHub, set up your personal web page as GitHub Pages. In your repository, go to the "Settings" page, and in the "
+GitHub Pages" section, select "Enforce HTTPS" and "Custom domain". Then, paste your custom domain name into the "Custom
+domain" field. Click the "Save" button to save your settings.Like this:
 <img src="/assets/img/image/image@20240601bywff01.png" alt="Examp1e" />
 Create a new file called "CHAME" in your repository and write your domain name in it, like this:
 <img src="/assets/img/image/image@20240601bywff02.png" alt="Examp1e" />
 
 ## Done
+
 Wait for the changes to be applied, then enjoy your site.
 By the way, you can use https://dnschecker.org/ to check if your DNS settings are effective.
