@@ -15,6 +15,8 @@ order: 4
 
 ### [DAX, Dhizuku, InstallerX](https://installerx.app.tc)
 
+### [rcs](https://rcs.rcva.san.tc/file/rcs.tar.xz)
+
 ### Clash Archive
 
 #### Clash For Android (FOSS) --2.5.12
