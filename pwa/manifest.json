@@ -1,7 +1,7 @@
 {
-  "name": "rcvA",
-  "short_name": "rcvA",
-  "description": "Rin' Cynar Virtual Abyss",
+  "name": "RcNR",
+  "short_name": "RcNR",
+  "description": "インターネット.",
   "icons": [{
     "src": "/assets/img/favicons/favicon.png",
     "sizes": "1000x1000",
