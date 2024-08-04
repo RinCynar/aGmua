@@ -23,7 +23,7 @@ having fun...)"
 
 ## This Website?
 
-This is my personal blog!Click [here](/assets/file/rcnr/rcvA-1-1.apk) to install the android app of this site
+This is my personal blog! Install this website's app using PWA.
 <br>
 
 I've been working on setting up a website since around 2021. I started with "WordPress," went through a few different
