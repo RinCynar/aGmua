@@ -20,7 +20,7 @@ Haven't? Buy one!(bushi).Try do that in phone is really cool right?
 ### A Github Accounts
 
 Haven't? Sign up!
-[This is a guide.](https://rcva.san.tc/posts/HOW-TO-REGISTER-A-GITHUB-ACCOUNT)
+[This is a guide.](https://aGmua.san.tc/posts/HOW-TO-REGISTER-A-GITHUB-ACCOUNT)
 
 ### A smart person --You
 
