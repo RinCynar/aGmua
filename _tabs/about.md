@@ -46,7 +46,7 @@ on [here](https://github.com/RinCynar/rcva.san.tc)
   the format:
   {
   tit1e: "Rin' Cynar",
-  href: "https://aGmua.san.tc"
+  href: "https://rincynar.us.kg"
   }
   </blockquote>
 
