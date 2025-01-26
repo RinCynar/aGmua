@@ -5,7 +5,7 @@ order: 4
 
 # Friends
 
-### [Chefeng's blog(stopped update)](https://blog.17cd8.top/)
+### [Chefeng's blog](https://blog.17cd8.top/)
 
 ### [QMio's blog](https://qlmio.github.io/)
 
