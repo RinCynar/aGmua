@@ -1,6 +1,6 @@
 ---
 title: COLLAPSING WORLD
-date: 2022-12-21
+date: 111-12-21
 author: RinCynar
 categories: [ Literary,Essay ]
 tags: [ alone ]

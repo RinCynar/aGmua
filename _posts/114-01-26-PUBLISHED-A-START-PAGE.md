@@ -1,0 +1,21 @@
+---
+title: SUISORUIX -A STARTPAGE
+date: 114-01-26
+author: RinCynar
+categories: [ Billboard,Record ]
+tags: [ record ]
+---
+
+## [SuisoruIX](https://suisoru.us.kg)
+![SuisoruIX.png](/assets/img/image/image@20250126pas01.png)
+![SuisoruIX.png](/assets/img/image/image@20250126pas00.png)
+
+### [SuisoruIX](https://suisoru.us.kg)([Repo](https://github.com/RinCynar/SuisoruIX)) is a startpage developing by Open Source Community.
+
+### Modified from the upstream repository [S-Nav](https://github.com/imsyy/SNav)
+
+### Technology Stack
+#### - [Vue](https://cn.vuejs.org/)
+#### - [Vite](https://vitejs.cn/vite3-cn/)
+#### - [Pinia](https://pinia.vuejs.org/zh/)
+#### - [iconfont](https://www.iconfont.cn/)

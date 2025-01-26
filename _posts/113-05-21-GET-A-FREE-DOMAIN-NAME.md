@@ -1,6 +1,6 @@
 ---
 title: GET A FREE DOMAIN NAME
-date: 2024-05-21
+date: 113-05-21
 author: RinCynar
 categories: [ IT,Internet,Website ]
 tags: [ IT,Internet,website,build,free ]
