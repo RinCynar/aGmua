@@ -1,10 +1,11 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+- type: facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/share/15g8vtAose/"
 
 - type: twitter
-  icon: "fa-brands fa-x-twitter"
+  icon: "fab fa-twitter"
 
 - type: email
   icon: "fas fa-envelope"
@@ -13,6 +14,18 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: telegram
+  icon: "fab fa-telegram"
+  url: "https://t.me/RinCynar"
+
+- type: threads
+  icon: "fab fa-threads"
+  url: "https://www.threads.net/@im.rincynar"
+
+- type: bluesky
+  icon: "fab fa-bluesky"
+  url: "https://bsky.app/profile/rincynar.us.kg"
 
 - type: LINE
   icon: "fab fa-line"
