@@ -1,5 +1,5 @@
 ---
-title: SUISORUIX -A STARTPAGE
+title: SUISORUIX - A STARTPAGE
 date: 114-01-26
 author: RinCynar
 categories: [ Billboard,Record ]
