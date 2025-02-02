@@ -3,7 +3,10 @@
 icon: fas fa-solid fa-heart
 order: 3
 ---
-
+<blockquote>
+        Absolute freedom or shackles
+         - FREEDOM MUST BE UNLIMITED.
+    </blockquote>
 <blockquote>
         WHAT RIGHT DO U HAVE 2 MAKE A CHILD WHO GROW UP IN MALICE SPREAD LOVE & HOPE?
     </blockquote>

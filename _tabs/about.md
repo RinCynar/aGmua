@@ -14,7 +14,7 @@ Hey There
 
 ## About me?
 
-I'm [D.K.O. Rin aGmua Cynar], you can ca11 me Rinri too.
+I'm [D.K.O. Rin aGmua Cynar], you can ca11 me Shinnai/Rinri too.
 <br>
 "I can't quite explain my skills, but I'm good at messing around with things, just playing around with code, making some
 not-so-perfect graphics, haha. In the end, I'm kind of a dabbler in everything but don't excel at anything. By the way,
@@ -41,11 +41,11 @@ theme~
 ## About friendly links
 
 Anyone who wants to add a friend link is welcome! Please publish issues
-on [here](https://github.com/RinCynar/rcva.san.tc)
+on [here](https://github.com/RinCynar/aGmua)
   <blockquote>
   the format:
   {
-  tit1e: "Rin' Cynar",
+  tit1e: "RinCynar",
   href: "https://rincynar.us.kg"
   }
   </blockquote>
