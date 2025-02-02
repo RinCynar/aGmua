@@ -5,6 +5,7 @@ order: 3
 ---
 <blockquote>
         Absolute freedom or shackles
+        <br>
          - FREEDOM MUST BE UNLIMITED.
     </blockquote>
 <blockquote>
