@@ -1,0 +1,49 @@
+---
+title: ADB HACKS FOR MY PIXEL
+date: 114-02-02
+author: RinCynar
+categories: [ IT,Android,GooglePixel ]
+tags: [ ADB,Android,GooglePixel ]
+---
+
+## Set Captive Portal Server
+
+#### Check states: $ adb shell "settings get global ntp_server"
+
+### Provided by Google by default, may not be available in some regions
+
+#### $ adb shell "settings put global captive_portal_http_url http://www.google.com/generate_204"
+
+#### $ adb shell "settings put global captive_portal_https_url https://www.google.com/generate_204"
+
+### Or choose to use CloudFlare in areas where Google is not accessible.
+
+#### $ adb shell "settings put global captive_portal_https_url https://cp.cloudflare.com/generate_204"
+
+#### $ adb shell "settings put global captive_portal_http_url http://cp.cloudflare.com/generate_204"
+
+## Set NTP Server
+
+#### Check states: $ adb shell "settings get global ntp_server"
+
+### Provided by time.android by default, may not be available in some regions
+
+#### $ adb shell "settings put global ntp_server time.android.com"
+
+### Or choose to use CloudFlare in areas where time.android is not accessible.
+
+#### $ adb shell "settings put global ntp_server time.cloudflare.com"
+
+## Force enable independent multi-language settings for all apps (Android 13 and above)
+
+#### $ adb shell "settings put global settings_app_locale_opt_in_enabled false"
+
+#### Check states: $ adb shell "settings get global settings_app_locale_opt_in_enabled"
+
+## Other Android Tools
+
+### [Termux](https://play.google.com/store/apps/details?id=com.termux)
+
+### [Shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)
+
+### [SystemUI Tuner](https://play.google.com/store/apps/details?id=com.zacharee1.systemuituner)
