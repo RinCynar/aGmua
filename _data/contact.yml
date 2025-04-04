@@ -17,7 +17,7 @@
 
 - type: telegram
   icon: "fab fa-telegram"
-  url: "https://t.me/SuisoruIX"
+  url: "https://t.me/blankaccount"
 
 - type: threads
   icon: "fab fa-threads"
@@ -25,7 +25,7 @@
 
 - type: bluesky
   icon: "fab fa-bluesky"
-  url: "https://bsky.app/profile/rincynar.us.kg"
+  url: "https://bsky.app/profile/rincynar.dpdns.org"
 
 - type: LINE
   icon: "fab fa-line"
