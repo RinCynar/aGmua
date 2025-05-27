@@ -4,15 +4,18 @@ icon: fas fa-solid fa-heart
 order: 3
 ---
 <blockquote>
-        Absolute freedom or shackles
-        <br>
-         - FREEDOM MUST BE UNLIMITED.
-    </blockquote>
-<blockquote>
         WHAT RIGHT DO U HAVE 2 MAKE A CHILD WHO GROW UP IN MALICE SPREAD LOVE & HOPE?
     </blockquote>
 <blockquote>
+        Our breath riseth o’er all, inasmuch as we be wrought as peples.
+    </blockquote>
+<blockquote>
         "Embrace anew, ere chime shatters the ephemeral dreamscape."
+    </blockquote>
+<blockquote>
+        Absolute freedom or shackles
+        <br>
+         - FREEDOM MUST BE UNLIMITED.
     </blockquote>
 <blockquote>
         "In my opinion, the ideal system of society should be [seven days off]. The day after Sunday is the second, third, and even forever another Sunday - this is the face of the new world, an eternal day of peace with nothing to do."
