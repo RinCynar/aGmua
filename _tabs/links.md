@@ -7,7 +7,7 @@ order: 4
 
 ### [Chefeng's blog](https://blog.17cd8.top/)
 
-### [QMio's blog](https://qlmio.cc)
+### [QMio's blog](https://chimio.cc)
 
 # Resources
 
