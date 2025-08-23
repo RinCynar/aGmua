@@ -43,3 +43,9 @@ order: 4
 [Download cfw.Setup.arm64.exe](/assets/file/cla/Clash.for.Windows.Setup.0.20.39.arm64.exe)<br>
 [Download cfw.Setup.exe](/assets/file/cla/Clash.for.Windows.Setup.0.20.39.exe)<br>
 [Download cfw.Setup.ia32.exe](/assets/file/cla/Clash.for.Windows.Setup.0.20.39.ia32.exe)
+
+### Others
+
+[Network Speed Test File (9mb)](/assets/file/network.test)
+
+[MiHoMo Append Rules for Chinese mainland](/assets/file/rin-rules.yaml)
