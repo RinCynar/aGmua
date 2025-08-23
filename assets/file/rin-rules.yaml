@@ -23,6 +23,7 @@
   - DOMAIN-KEYWORD,tencent-cloud,DIRECT
   - DOMAIN-KEYWORD,zenlesszonezero,DIRECT
 
+  - DOMAIN-SUFFIX,*.com.cn
   - DOMAIN-SUFFIX,*.jd.com,DIRECT
   - DOMAIN-SUFFIX,*.bing.com,DIRECT
   - DOMAIN-SUFFIX,*.1688.com,DIRECT
