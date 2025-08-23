@@ -1,4 +1,4 @@
-rules:
++rules:
   - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
   - PROCESS-NAME,com.eg.android.AlipayGphone,DIRECT
   - PROCESS-NAME,com.levelinfinite.sgameGlobal,DIRECT
