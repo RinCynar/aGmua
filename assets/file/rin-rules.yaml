@@ -36,28 +36,33 @@ dns:
     - https://sky.rethinkdns.com/dns-query
 
 rules:
+  - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
   - PROCESS-NAME,com.eg.android.AlipayGphone,DIRECT
   - PROCESS-NAME,com.levelinfinite.sgameGlobal,DIRECT
-  - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
-  - DOMAIN-KEYWORD,aki-config,DIRECT
-  - DOMAIN-KEYWORD,aki-game,DIRECT
-  - DOMAIN-KEYWORD,kurogame,DIRECT
-  - DOMAIN-KEYWORD,hoyoverse,DIRECT
-  - DOMAIN-KEYWORD,starrail,DIRECT
-  - DOMAIN-KEYWORD,zenlesszonezero,DIRECT
-  - DOMAIN-KEYWORD,alicdn,DIRECT
-  - DOMAIN-KEYWORD,tencent,DIRECT
+
   - DOMAIN-KEYWORD,qq,DIRECT
-  - DOMAIN-KEYWORD,bilibili,DIRECT
-  - DOMAIN-KEYWORD,alipan,DIRECT
-  - DOMAIN-KEYWORD,peiyinxiu,DIRECT
-  - DOMAIN-KEYWORD,douyin,DIRECT
-  - DOMAIN-KEYWORD,taobao,DIRECT
-  - DOMAIN-KEYWORD,pinduoduo,DIRECT
   - DOMAIN-KEYWORD,weibo,DIRECT
   - DOMAIN-KEYWORD,tmall,DIRECT
+  - DOMAIN-KEYWORD,alicdn,DIRECT
+  - DOMAIN-KEYWORD,alipan,DIRECT
+  - DOMAIN-KEYWORD,douyin,DIRECT
+  - DOMAIN-KEYWORD,taobao,DIRECT
+  - DOMAIN-KEYWORD,weixin,DIRECT
+  - DOMAIN-KEYWORD,tencent,DIRECT
+  - DOMAIN-KEYWORD,aki-game,DIRECT
+  - DOMAIN-KEYWORD,bilibili,DIRECT
   - DOMAIN-KEYWORD,dingtalk,DIRECT
+  - DOMAIN-KEYWORD,kurogame,DIRECT
+  - DOMAIN-KEYWORD,starrail,DIRECT
+  - DOMAIN-KEYWORD,hoyoverse,DIRECT
+  - DOMAIN-KEYWORD,peiyinxiu,DIRECT
+  - DOMAIN-KEYWORD,pinduoduo,DIRECT
+  - DOMAIN-KEYWORD,aki-config,DIRECT
+  - DOMAIN-KEYWORD,zenlesszonezero,DIRECT
+
+  - DOMAIN-SUFFIX,*.jd.com,DIRECT
   - DOMAIN-SUFFIX,*.bing.com,DIRECT
+<<<<<<< HEAD
   - DOMAIN-SUFFIX,*.1688.com,DIRECT
   - DOMAIN-SUFFIX,*.jd.com,DIRECT
 
@@ -89,3 +94,6 @@ geox-url:
   geoip: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite-lite.dat
   asn: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
 geo-update-interval: 6
+=======
+  - DOMAIN-SUFFIX,*.1688.com,DIRECT
+>>>>>>> b99be63ce659d994fee21936458c3430cfef3b02
