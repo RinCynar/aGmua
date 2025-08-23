@@ -36,10 +36,11 @@ dns:
     - https://sky.rethinkdns.com/dns-query
 
 rules:
+#Process-Name
   - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
   - PROCESS-NAME,com.eg.android.AlipayGphone,DIRECT
   - PROCESS-NAME,com.levelinfinite.sgameGlobal,DIRECT
-
+#Domain-Keyword
   - DOMAIN-KEYWORD,qq,DIRECT
   - DOMAIN-KEYWORD,weibo,DIRECT
   - DOMAIN-KEYWORD,tmall,DIRECT
@@ -59,10 +60,9 @@ rules:
   - DOMAIN-KEYWORD,pinduoduo,DIRECT
   - DOMAIN-KEYWORD,aki-config,DIRECT
   - DOMAIN-KEYWORD,zenlesszonezero,DIRECT
-
+#Domain-Suffix
   - DOMAIN-SUFFIX,*.jd.com,DIRECT
   - DOMAIN-SUFFIX,*.bing.com,DIRECT
-<<<<<<< HEAD
   - DOMAIN-SUFFIX,*.1688.com,DIRECT
   - DOMAIN-SUFFIX,*.jd.com,DIRECT
 
@@ -94,6 +94,3 @@ geox-url:
   geoip: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite-lite.dat
   asn: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
 geo-update-interval: 6
-=======
-  - DOMAIN-SUFFIX,*.1688.com,DIRECT
->>>>>>> b99be63ce659d994fee21936458c3430cfef3b02
