@@ -48,6 +48,6 @@ order: 4
 
 [Network Speed Test File (9mb)](/assets/file/network.test)
 
-[MiHoMo Append Rules for my personal use](/assets/file/rin-rules.yaml)
+[MiHoMo Append Rules for my personal use](https://raw.githubusercontent.com/RinCynar/aGmua/refs/heads/main/assets/file/rin-rules.yaml)
 
-[MiHoMo configs for my personal use](/assets/file/rin-config.yaml)
+[MiHoMo configs for my personal use](https://raw.githubusercontent.com/RinCynar/aGmua/refs/heads/main/assets/file/rin-config.yaml)
