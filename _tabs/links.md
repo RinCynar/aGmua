@@ -48,4 +48,6 @@ order: 4
 
 [Network Speed Test File (9mb)](/assets/file/network.test)
 
-[MiHoMo Append Rules for Chinese mainland](/assets/file/rin-rules.yaml)
+[MiHoMo Append Rules for my personal use](/assets/file/rin-rules.yaml)
+
+[MiHoMo configs for my personal use](/assets/file/rin-config.yaml)
