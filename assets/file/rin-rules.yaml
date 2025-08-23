@@ -1,4 +1,4 @@
-+rules:
+rules:
   - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
   - PROCESS-NAME,com.eg.android.AlipayGphone,DIRECT
   - PROCESS-NAME,com.levelinfinite.sgameGlobal,DIRECT
@@ -10,6 +10,7 @@
   - DOMAIN-KEYWORD,alipan,DIRECT
   - DOMAIN-KEYWORD,douyin,DIRECT
   - DOMAIN-KEYWORD,taobao,DIRECT
+  - DOMAIN-KEYWORD,weixin,DIRECT
   - DOMAIN-KEYWORD,tencent,DIRECT
   - DOMAIN-KEYWORD,aki-game,DIRECT
   - DOMAIN-KEYWORD,bilibili,DIRECT
@@ -20,10 +21,8 @@
   - DOMAIN-KEYWORD,peiyinxiu,DIRECT
   - DOMAIN-KEYWORD,pinduoduo,DIRECT
   - DOMAIN-KEYWORD,aki-config,DIRECT
-  - DOMAIN-KEYWORD,tencent-cloud,DIRECT
   - DOMAIN-KEYWORD,zenlesszonezero,DIRECT
 
-  - DOMAIN-SUFFIX,*.com.cn
   - DOMAIN-SUFFIX,*.jd.com,DIRECT
   - DOMAIN-SUFFIX,*.bing.com,DIRECT
   - DOMAIN-SUFFIX,*.1688.com,DIRECT
