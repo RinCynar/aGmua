@@ -1,7 +1,9 @@
 mixed-port: 8900
 allow-lan: true
+bind-address: '*'
 mode: rule
 log-level: warning
+external-controller: '[::]:9090'
 dns:
   enable: true
   ipv6: true
@@ -34,7 +36,13 @@ dns:
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
     - https://sky.rethinkdns.com/dns-query
-
+  nameserver-policy:
+    geosite:private,cn:
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+      - https://sky.rethinkdns.com/dns-query
 rules:
 #Process-Name
   - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
@@ -77,6 +85,8 @@ port: 8901
 socks-port: 8902
 redir-port: 8903
 tproxy-port: 8904
+tun:
+  device: Zora
 hosts:
   zorayael.rin:
     - 10.0.0.1
@@ -93,4 +103,5 @@ geox-url:
   mmdb: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
   geoip: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite-lite.dat
   asn: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
+geo-auto-update: true
 geo-update-interval: 6
