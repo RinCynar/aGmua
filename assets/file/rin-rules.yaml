@@ -21,6 +21,7 @@ rules:
   - DOMAIN-SUFFIX,*.jd.com,DIRECT
   - DOMAIN-SUFFIX,*.bing.com,DIRECT
   - DOMAIN-SUFFIX,*.1688.com,DIRECT
+  - DOMAIN-SUFFIX,*.gcloudsvcs.com,DIRECT
   - DOMAIN-SUFFIX,*.sgameglobal.com,DIRECT
   - PROCESS-NAME,com.tencent.tmgp.sgame,DIRECT
   - PROCESS-NAME,com.eg.android.AlipayGphone,DIRECT
