@@ -1,4 +1,4 @@
-rules:
++rules:
   - DOMAIN-KEYWORD,aki-game,DIRECT
   - DOMAIN-KEYWORD,kurogame,DIRECT
   - DOMAIN-KEYWORD,starrail,DIRECT
