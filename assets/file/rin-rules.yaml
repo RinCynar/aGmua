@@ -1,12 +1,12 @@
-rules:
-  - DOMAIN-KEYWORD,haier,🎯 全球直连
-  - DOMAIN-KEYWORD,haigeek,🎯 全球直连
-  - DOMAIN-KEYWORD,aki-game,🎯 全球直连
-  - DOMAIN-KEYWORD,kurogame,🎯 全球直连
-  - DOMAIN-KEYWORD,starrail,🎯 全球直连
-  - DOMAIN-KEYWORD,hoyoverse,🎯 全球直连
-  - DOMAIN-KEYWORD,aki-config,🎯 全球直连
-  - DOMAIN-KEYWORD,zenlesszonezero,🎯 全球直连
-  - DOMAIN-SUFFIX,5rs.me,🎯 全球直连
-  - DOMAIN-SUFFIX,gcloudsvcs.com,🎯 全球直连
-  - DOMAIN-SUFFIX,sgameglobal.com,🎯 全球直连
+nikki-rules:
+  - DOMAIN-KEYWORD,haier,GLOBAL
+  - DOMAIN-KEYWORD,haigeek,GLOBAL
+  - DOMAIN-KEYWORD,aki-game,GLOBAL
+  - DOMAIN-KEYWORD,kurogame,GLOBAL
+  - DOMAIN-KEYWORD,starrail,GLOBAL
+  - DOMAIN-KEYWORD,hoyoverse,GLOBAL
+  - DOMAIN-KEYWORD,aki-config,GLOBAL
+  - DOMAIN-KEYWORD,zenlesszonezero,GLOBAL
+  - DOMAIN-SUFFIX,5rs.me,GLOBAL
+  - DOMAIN-SUFFIX,gcloudsvcs.com,GLOBAL
+  - DOMAIN-SUFFIX,sgameglobal.com,GLOBAL
