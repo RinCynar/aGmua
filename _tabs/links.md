@@ -9,6 +9,12 @@ order: 4
 
 ### [QMio's blog](https://chimio.cc)
 
+# RinCynar
+
+### [SuisoruIX](https://start.rincynar.top)
+
+### [Sublink Worker](https://fyrspir.rincynar.top)
+
 # Resources
 
 ## Applications
