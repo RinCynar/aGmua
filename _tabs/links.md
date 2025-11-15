@@ -11,9 +11,25 @@ order: 4
 
 # RinCynar
 
+#### Not all services opening for everyone.
+
+### [BBS](https://bbs.rincynar.top)
+
+### [Chat](https://chat.rincynar.top)
+
+### [Music](https://music.rincynar.top)
+
+### [Movie](https://tv.rincynar.top)
+
+### [SubHub](https://sub.fyrspir.rincynar.top/0198048d-205b-7d54-8ffd-80d97ba83e2e)
+
+### [Chat AI](https://chat.ai.rincynar.top)
+
 ### [SuisoruIX](https://start.rincynar.top)
 
 ### [Sublink Worker](https://fyrspir.rincynar.top)
+
+### [Text to Image AI](https://img.ai.rincynar.top)
 
 # Resources
 
