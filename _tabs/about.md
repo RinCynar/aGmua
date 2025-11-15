@@ -51,7 +51,7 @@ on [here](https://github.com/RinCynar/aGmua)
   the format:
   {
   tit1e: "RinCynar",
-  href: "https://rincynar.dpdns.org"
+  href: "https://rincynar.top"
   }
   </blockquote>
 
