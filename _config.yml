@@ -14,7 +14,7 @@ timezone: Asia/Taipei
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Blog - RinCynar # the main title
+title: RinCynar # the main title
 
 tagline: "Embrace anew, ere chime shatters the ephemeral dreamscape." # it will display as the sub-title
 
