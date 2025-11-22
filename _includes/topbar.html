@@ -1,9 +1,9 @@
 <!-- The Top Bar -->
 
-<header id="topbar-wrapper" aria-label="Top Bar">
+<header id="topbar-wrapper" aria-label="Top Bar" class="md-app-bar md-surface">
   <div
     id="topbar"
-    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
+    class="d-flex align-items-center justify-content-between px-lg-3 h-100 md-topbar"
   >
     <nav id="breadcrumb" aria-label="Breadcrumb">
       {% assign paths = page.url | split: '/' %}
@@ -40,11 +40,11 @@
     </nav>
     <!-- endof #breadcrumb -->
 
-    <button type="button" id="sidebar-trigger" class="btn btn-link">
+    <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Toggle sidebar">
       <i class="fas fa-bars fa-fw"></i>
     </button>
 
-    <div id="topbar-title">
+    <div id="topbar-title" class="md-topbar-title">
       {% if page.layout == 'home' %}
         {{- site.data.locales[include.lang].title | default: site.title -}}
       {% elsif page.collection == 'tabs' or page.layout == 'page' %}
@@ -55,7 +55,7 @@
       {% endif %}
     </div>
 
-    <button type="button" id="search-trigger" class="btn btn-link">
+    <button type="button" id="search-trigger" class="btn btn-link" aria-label="Open search">
       <i class="fas fa-search fa-fw"></i>
     </button>
 
