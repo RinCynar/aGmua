@@ -15,22 +15,6 @@
   icon: "fas fa-rss"
   noblank: true
 
-- type: telegram
-  icon: "fab fa-telegram"
-  url: "https://t.me/bIankaccount"
-
-- type: threads
-  icon: "fab fa-threads"
-  url: "https://www.threads.net/@im.rincynar"
-
-- type: bluesky
-  icon: "fab fa-bluesky"
-  url: "https://bsky.app/profile/rincynar.top"
-
-- type: LINE
-  icon: "fab fa-line"
-  url: "https://line.me/ti/p/VEjru7nFpx"
-  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
