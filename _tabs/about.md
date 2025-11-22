@@ -19,7 +19,7 @@ This is my personal blog! Install this website's app using PWA.
 
 I've been working on setting up a website since around 2021. I started with "WordPress," went through a few different
 options back and forth, and finally settled here:
-GithHub + [this theme](https://github.com/cotes2020/jekyll-theme-chirpy)
+[GithHub](https://github.com/RinCynar/blog) + [this theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 <br>
 
 Luckily, I'm easygoing and didn't put much up, so I avoided any problems (blodly asserting myself Haha).
